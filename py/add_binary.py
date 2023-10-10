@@ -6,8 +6,7 @@ Brief: Implement a function that adds two numbers together and returns their sum
 @return: str
 '''
 def add_binary(num1, num2):
-    strBinary =  str(bin(num1 + num2))
-    return strBinary[2:]
+    return bin(num1 + num2)[2:]
 
 print(add_binary(1,1))   # 10
 print(add_binary(0,1))   # 1
